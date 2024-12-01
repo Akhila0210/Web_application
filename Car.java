@@ -3,7 +3,7 @@ package CarProject;
 public class Car {
 	private IEngine iEn;
 	public Car() {
-		System.out.println("This is Car constructor");
+		System.out.println("This is not a Car constructor");
 	}
 	public Car(IEngine iEn) {
 		System.out.println("This is constructor injection");
