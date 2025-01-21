@@ -8,7 +8,7 @@ public class Car {
 	public Car(IEngine iEn) {
 		System.out.println("This is constructor injection");
 		this.iEn=iEn;
-		System.out.println("INjection done");
+		System.out.println("Injection done");
 	}
 	public void setiEn(IEngine iEn) {
 		this.iEn=iEn;
